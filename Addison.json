@@ -1,0 +1,34 @@
+{
+    "weirdItems": [
+      {
+        "name": "Addison Rae Bed Cover",
+        "price" : 45.98,
+        "details": "Addison Rae's face on a bed sheet",        
+        "image": "cover1.jpg"
+      },
+      {
+        "name": "Addison Rae Bed Cover option 2",
+        "price" : 35.98,
+        "details": "Addison Rae's face on a bed sheet",        
+        "image": "cover2.jpg"
+      },
+      {
+        "name": "Addison Rae Bed Cover option 3",
+        "price" : 65.98,
+        "details": "Addison Rae's face on a bed sheet",        
+        "image": "cover3.jpg"
+      },
+      {
+        "name": "Addison Rae Bed Cover option 4",
+        "price" : 55.98,
+        "details": "Addison Rae's face on a bed sheet",        
+        "image": "cover4.jpg"
+      },
+      {
+        "name": "Addison Rae Bed Bath Mat",
+        "price" : 15.98,
+        "details": "Addison Rae's face on a bath mat",        
+        "image": "BathMat.jpg"
+      }
+    ]
+  }  
