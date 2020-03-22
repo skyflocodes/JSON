@@ -1,0 +1,42 @@
+/*change the body style*/
+body {
+	font-family:sans-serif;
+	color: white;
+    background-image: url("Vroom.jpg");
+    text-align: center;
+	background-size: 300px;
+}
+/*add in the header style*/
+h1{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+    text-decoration: underline;
+    background-color: black;
+}
+/*add in the second header style*/
+h2{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+    text-decoration: underline;
+}
+/*un ordered list style*/
+ul{
+    color:black;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+}
+
+li{
+    margin-bottom: 5%;
+}
+/*form style*/
+form{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+    background-color: black;
+}
