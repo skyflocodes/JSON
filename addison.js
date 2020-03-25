@@ -1,9 +1,12 @@
+//create request as a function
 function getItems(requestURL) {
   //request the json file
   let request = new XMLHttpRequest();
-
+  //return it as a promise
   return new Promise(function (resolve, reject) {
+    //try to get the objects
     try {
+      //take the request
       request.open('GET', requestURL);
       request.responseType = 'json';
       request.send();
@@ -14,15 +17,21 @@ function getItems(requestURL) {
         resolve(addisonJson);
       };
     } catch (e) {
+      //catch and reject any errors
       reject(e);
     }
   });
 }
 
+//call the request
 getItems('https://skyflocodes.github.io/JSON/Addison.json')
   .then(function(value){
+    //display the itemss
     addisonItems(value);
   })
+  .catch(function(e){
+    console.log(e);
+  });
 
 function addisonItems(jsonObj) {
 
