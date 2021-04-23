@@ -24,7 +24,7 @@ function getItems(requestURL) {
 }
 
 //call the request
-getItems('https://skyflocodes.github.io/JSON/Addison.json')
+getItems('https://skyflocodes.github.io/JSON-Display-JavaScript/Addison.json')
   .then(function(value){
     //display the itemss
     addisonItems(value);
@@ -51,7 +51,7 @@ function addisonItems(jsonObj) {
 
     //add the produst image
     let img = document.createElement("img");
-    img.setAttribute("src", 'https://skyflocodes.github.io/JSON/Bedcovers/' + addisonItems[i].image);
+    img.setAttribute("src", 'https://skyflocodes.github.io/JSON-Display-JavaScript/Bedcovers/' + addisonItems[i].image);
     img.setAttribute("alt", addisonItems[i].image);
     body.appendChild(img);
 
